@@ -1,13 +1,8 @@
 @media only screen and (max-height: 450px) {
     #navbar {padding-top: 15px;}
-    #navbar a {font-size: 18px;}
+    #navbar a {font-size: 26px;}
   }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: white;
-}
 header {
     font: 30px bolder Arial, Helvetica, sans-serif;;
 }
