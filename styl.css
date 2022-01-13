@@ -1,3 +1,8 @@
+@media only screen and (max-height: 450px) {
+    #navbar {padding-top: 15px;}
+    #navbar a {font-size: 18px;}
+  }
+
 body {
     margin: 0;
     padding: 0;
@@ -6,38 +11,51 @@ body {
 header {
     font: 30px bolder Arial, Helvetica, sans-serif;;
 }
+code {
+    display: block;
+    padding: 8px;
+    margin: 14px;
+    background: rgb(221, 218, 218);
+    border-radius: 4px;
+}
+section {
+    margin-bottom: 20px;
+}
+p, li {
+    font: 16px normal Arial, Helvetica, sans-serif;
+    line-height: 30px;
+    margin: 16px;
+}
 #navbar {
     height: 100%;
-    width: 250px;
+    width: 340px;
     position: fixed;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
     overflow-x: hidden;
     padding: 0;
     margin: 0;
+    border-right: 2px solid grey;
   }
   
   #navbar a {
-    padding: 6px 8px 6px 16px;
+    margin-left: 30px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: left;
     text-decoration: none;
-    font-size: 25px;
-    color: #818181;
+    font-size: 20px normal Arial, Helvetica, sans-serif;
     display: block;
+    color: black;
   }
-  
-  #navbar a:hover {
-    color: #f1f1f1;
+  #navbar header {
+      padding: 30px;
+      text-align: center;
   }
   
   #main-doc {
-    margin-left: 250px; /* Same as the width of the sidenav */
-    font-size: 28px; /* Increased text to enable scrolling */
-    padding: 0px 10px;
+    margin-left: 340px; /* Same as the width of the sidenav */
+    padding: 0px 40px;
   }
   
-  @media screen and (max-height: 450px) {
-    #navbar {padding-top: 15px;}
-    #navbar a {font-size: 18px;}
-  }
